@@ -1,0 +1,62 @@
+{
+    "sddm": [
+        "sddm",
+        "sddm-kcm"
+    ],
+    "utils": [
+        "arch-install-scripts",
+        "ntfs-3g",
+        "android-file-transfer",
+        "dosfstools",
+        "ntfsprogs",
+        "btrfs-progs",
+        "power-profiles-daemon", 
+        "reflector", 
+        "xdg-user-dirs", 
+        "tree",
+        "ttf-ms-fonts"
+    ],
+    "gui": [
+        "telegram-desktop",
+        "discord",
+        "libreoffice-fresh-ru",
+        "thunar",
+        "feh",
+        "qalculate-gtk",
+        "audacious",
+        "obsidian"
+    ],
+    "terminal": [
+        "git",
+        "wget",
+        "cmake",
+        "mc",
+        "glances",
+        "fastfetch",
+        "zsh",
+        "zsh-completions",
+        "openssh"
+    ],
+    "programming": [
+        "qtcreator",
+        "pycharm-community-edition",
+        "lite-xl",
+        "visual-studio-code-bin",
+        "processing",
+        "lpm",
+        "cursor-bin",
+        
+        "virtualbox",
+        "virtualbox-host-modules-arch"
+    ],
+    "drivers": [
+        "nvidia-dkms",
+        "nvidia-utils",
+        "lib32-nvidia-utils",
+
+        "pipewire",
+        "lib32-pipewire",
+        "pipewire-pulse",
+        "wireplumber"
+    ]
+}
