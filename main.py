@@ -91,6 +91,13 @@ Session={session}
     
     with open(config_file, "w") as f:
         f.write(config_content)
+
+def setup_git():
+    Print.info("Setting up git")
+    name = Print.input("Enter your name: ")
+    email = Print.input("Enter your email: ")
+    run_cmd(f"git config --global user.name '{name}'")
+    run_cmd(f"git config --global user.email '{email}'")
     
 def main():
     parser = argparse.ArgumentParser(description="Arch Customizer: customize Arch Linux")
@@ -108,6 +115,7 @@ def main():
     install_user_dirs()
     install_zsh()
     setup_sddm_autologin()
+    setup_git()
     
     Print.success("Installation complete\n")
 
